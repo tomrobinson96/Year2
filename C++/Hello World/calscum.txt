@@ -1,0 +1,22 @@
+/* calcsum.c */
+#include <stdio.h>
+#include <stdlib.h>
+
+float timestwo( float val )
+{
+   float twice;
+   twice = 2.0 * val;
+   return twice;
+};
+
+/* Main function */
+int main(void)
+{
+   float a,answer;
+   printf("Enter a value>" );
+   scanf_s( "%f", &a ); // Microsoft version of scanf()
+   answer = timestwo( a );
+   printf("Result of function call is: %6.2f \n", answer);
+   system("PAUSE");
+   return 0;
+}

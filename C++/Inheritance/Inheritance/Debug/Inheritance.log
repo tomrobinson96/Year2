@@ -1,0 +1,5 @@
+﻿  Vehicle.cpp
+  TestVehicles.cpp
+c:\users\tom\documents\year 2\c++\inheritance\inheritance\testvehicles.cpp(5): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  Inheritance.vcxproj -> C:\Users\Tom\Documents\Year 2\C++\Inheritance\Debug\Inheritance.exe
